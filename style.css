@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+::-webkit-scrollbar{
+    display: none;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.navbar{
+    background-color: white;
+}
+.nav-link{
+  
+    font-size: 18px;
+    color: rgb(77, 71, 71);
+   margin-left: 10px;
+    text-transform:uppercase;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("images/home.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#about,#skills,#projects{
+    background-color: white;
+}
+
+.card{
+    margin: 10px 0px;
+}
+.card i{
+    
+    color: white;
+    padding: 30px;
+    margin: auto;
+}
+.col-md-4 .card:hover{
+    background-color: whitesmoke;
+}
+#projects .btn:hover{
+    background-color: rgba(6, 41, 105, 0.589);
+    color: white;
+
+}
+#skills .card:hover{
+    background-color: whitesmoke;
+}
+.form-control:focus {
+    
+        box-shadow: none;
+    }
+@media (max-width:768px) {
+   #about{
+    text-align: center;
+   }
+    h2{
+        margin: auto;
+
+    }
+    #about button{
+        margin: auto;
+    }
+}
